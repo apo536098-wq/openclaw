@@ -1,5 +1,5 @@
 # OpenClaw Güvenlik ve Kimlik Doğrulama Analizi (Kadir)
-Hocanın isteği üzerine yapılan kod incelemesinin bulgularıdır:
+Hocanın isteği üzerine yapılan kod incelemesinin bulgularıdır.
 
 ## 1. Kimlik Depolama (Authentication Storage)
 `auth-store-paths.ts` dosyasında görüldüğü üzere, sistem kimlik bilgilerini (token/credential) her 'agent' klasörü altındaki `auth.json` dosyasında saklamaktadır.
